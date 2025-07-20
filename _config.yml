@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/probberechts
+projects_url: https://github.com/Leon2xiaowu
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -17,7 +17,7 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: http://github.com/probberechts
+  projects: https://github.com/Leon2xiaowu
 
 
 # Links to your social media accounts.
@@ -29,24 +29,20 @@ nav:
 social_links:
   -
     icon: github
-    link: http://github.com/probberechts/cactus-dark
-  -
-    icon: twitter
-    link: /
-  -
-    icon: facebook
-    link: /
+    link: https://github.com/Leon2xiaowu
+  # -
+  #   icon: twitter
+  #   link: /
+  # -
+  #   icon: facebook
+  #   link: /
   -
     icon: mail
-    link: mailto:name@email.com
+    link: mailto:leon2xiaowu@hotmail.com@hotmail.com
   -
-    icon: mastodon
-    label: mastodon.social
-    link: https://mastodon.social/@alice
-  -
-    icon: mastodon
-    label: fosstodon.org
-    link: https://fosstodon.org/@alice
+    icon: zhihu
+    link: https://www.zhihu.com/people/huo-yan-shan-niu-mo-wang
+
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -59,7 +55,7 @@ tags_overview: false
 #   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
   show_all_posts: false
-  post_count: 5
+  post_count: 10
   sort_updated: false
 
 # Customize the archive view.
@@ -133,7 +129,7 @@ favicon:
 
 # The color scheme that should be used to highlight codeblocks.
 # See source/css/_highlight for a list of all available color schemes.
-# highlight: rainbow
+# highlight: agate
 
 # Set the color scheme.
 # Available color schemes are 'dark', 'light', 'classic' and 'white'.
@@ -174,16 +170,16 @@ disqus:
 
 # Fill in your Utterances data to enable Utterances comments
 utterances:
-  enabled: false
-  repo: owner/githubrepo
+  enabled: true
+  repo: Leon2xiaowu/leon2xiaowu.github.io
   issue_term: pathname
   label: Comment
   theme: github-dark
 
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
 google_analytics:
-  enabled: false
-  id: UA-86660611-1
+  enabled: true
+  id: G-HQQ14EMXNR
 
 # Fill in your Baidu Analytics tracking ID to enable Baidu Analytics.
 baidu_analytics:
@@ -204,10 +200,10 @@ umami_analytics:
 
 # Fill in you Gravatar email or hash if you want to use your gravatar as the
 # logo and/or favicons of you website.
-# To generate hash: `$ echo -n "name@email.com" | md5`.
+# To generate hash: `$ echo -n "leon2xiaowu@hotmail.com" | md5`.
 gravatar:
-  email: name@email.com
-  hash: d41d8cd98f00b204e9800998ecf8427e
+  email: leon2xiaowu@hotmail.com@hotmail.com
+  hash: 89dfbe35487815bc31e8c8602dfd1abe
 
 # loads libraries and styles from CDN instead or relying on local files
 cdn:
